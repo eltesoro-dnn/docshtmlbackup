@@ -50,7 +50,7 @@
     <li><b><a href="/common/Extensions/CreatePackage.html">Package your module.</a></b></li>
 
     <li><b>Test your module.</b>
-        <ol>
+        <ol type=a>
             <li><a href="/common/Extensions/InstallExtension.html">Install the package.</a></li>
             <li>Apply the module to a pane in a new webpage in your DNN website.</li>
             <li>Check how the module behaves in different browsers.</li>
