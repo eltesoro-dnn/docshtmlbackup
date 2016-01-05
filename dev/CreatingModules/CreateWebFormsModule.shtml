@@ -31,15 +31,12 @@
         </p>
     </li>
 
-    <li>
-    </li>
 
 
     <!--
     From http://www.dnnsoftware.com/community-blog/cid/155075/module-development-templates
 
-* After Visual Studio creates your project you will have a few tabs open where Chris is giving you some helpful links and instructions.
-* update some of the information in the module’s properties, but for now we’ll just leave everything the way it is and close all the open tabs.
+* You can update some of the information in the module’s properties, but for now we’ll just leave everything the way it is and close all the open tabs.
 
 When we select the solution name and right-click we have the option to “Build Solution”. This also works in combination with the build option we have selected which can be “Debug” or “Release” mode. You select this from the drop down at the top center of Visual Studio. Building in debug mode creates .pdb files that help you troubleshoot your module or to “step through the code” in your module should you have any issues with the module compiling - More on debugging in a future blog.
 
@@ -53,9 +50,10 @@ Building in “Release” mode uses MSBuild to create an install package. The in
     Find your module under Available Module dropdown list.
     Drag your new module to the page.
 
-Once you get into the module settings notice those first 3 tabs (yes the tabs we previously discussed). Here again we didn’t have to do anything to get these to appear. That is one example of the power of using DNN. We don’t have to code permissions/security access… it’s already built in for us. There should now be a 4th tab, the “MyFirstModule” settings tab. This is a result of the settings user control that we just installed.
+In the module settings, notice the first three tabs, which are provided by DNN. The fourth tab, the “MyFirstModule” settings tab is a result of the settings user control that was just installed.
 
-So now that we are slowly connecting the dots let’s go back into Visual Studio. Once you get there go into the Solution Explorer and double-click the very last file the “View.ascx” file and when it loads up in the editor window type some text in the view file. Let’s type “My first module” there and then click save. Because this is simple text and not really any code that needs to be compiled (server side code) we don’t need to build our solution again. Now toggle back to the website where your module is on the page and click refresh. You should see the “My first module” text on the page. Congratulations! You’ve just made your first view control in a DNN module.
+* In Visual Studio, edit the “View.ascx” file, and add some text to it, then save.
+* Refresh the test page to see the text you added.
 
 Now it should be very clear that our view.ascx is the file that’s loaded on the page whenever our module is present. The data, content, and functionality we want to offer from the initial entry point of our module needs to be added here.
 
