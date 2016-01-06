@@ -49,13 +49,34 @@
 	</ul>
     <p><b>Note:</b> DNN products are tested on the latest browser versions at the time of release. Although untested, older browsers could still work.</p>
 
+    <b>Developer IDEs</b>
+    <table>
+        <tr>
+            <th>For creating modules</th>
+            <th>For contributing to the DNN Platform</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Visual Studio 2013</li>
+                    <li>Visual Studio 2015</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Visual Studio 2015</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
 	<h2>Recommended Environment</h2>
 	<ul>
-		<li>Windows Server 2012 R2</li>
-		<li>IIS 8.5</li>
-		<li>SQL Server 2012</li>
+		<li>Windows 10</li>
+		<li>IIS 10</li>
+		<li>SQL Server 2014 Developer Edition</li>
 		<li>.NET Framework 4.5.2</li>
+        <li><b>For developers:</b> Visual Studio 2015</li>
 	</ul>
 
 
